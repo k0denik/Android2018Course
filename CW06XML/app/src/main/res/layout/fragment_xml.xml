@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.afl.przedszkolelabapp.XMLFragment">
+
+    <Switch
+        android:id="@+id/ExportImportDestinationSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:checked="false"
+        android:showText="true"
+        android:splitTrack="false"
+        android:text="Miejsce docelowe"
+        android:textOff="Internal"
+        android:textOn="SDCard"
+        tools:checked="false" />
+
+    <Button
+        android:id="@+id/ExportChildrenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Eksportuj dzieci" />
+
+    <Button
+        android:id="@+id/ImportChildrenButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Importuj Dzieci" />
+
+</LinearLayout>
